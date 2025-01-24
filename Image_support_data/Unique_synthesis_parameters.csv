@@ -1,0 +1,28 @@
+Spincoating Speed,Substrates preheated temperature,Solution preheated temperature,Composition,Antisolvent Used
+"1000rpm 2s, 6000rpm 30s",100,100,AgBiI4,none used 
+"1000rpm 2s, 6000rpm 30s",110,110,AgBiI4,none used 
+"1000rpm 2s, 6000rpm 30s",120,120,AgBiI4,none used 
+"1000rpm 2s, 6000rpm 30s",130,130,AgBiI4,none used 
+"1000rpm 2s, 6000rpm 30s",140,140,AgBiI4,none used 
+"1000rpm 2s, 6000rpm 30s",150,150,AgBiI4,none used 
+6000rpm 30s,50,50,AgBiI4,none used 
+6000rpm 30s,60,60,AgBiI4,none used 
+6000rpm 30s,70,70,AgBiI4,none used 
+6000rpm 30s,80,80,AgBiI4,none used 
+6000rpm 30s,90,90,AgBiI4,none used 
+6000rpm 30s,100,100,AgBiI4,none used 
+6000rpm 30s,110,110,AgBiI4,none used 
+6000rpm 30s,120,120,AgBiI4,none used 
+6000rpm 30s,130,130,AgBiI4,none used 
+6000rpm 30s,140,140,AgBiI4,none used 
+6000rpm 30s,150,150,AgBiI4,none used 
+"1000rpm 2s, 6000rpm 30s",110,110,AgBiI4,none used 
+"1000rpm 2s, 6000rpm 30s",110,110,AgBiI4,isopropanol
+"1000rpm 2s, 4000rpm 30s",110,110,AgBiI4,none used 
+"1000rpm 2s, 4000rpm 30s",110,110,AgBiI4,isopropanol
+6000rpm 30s,25,25,AgBiI4,none used 
+6000rpm 30s,25,25,Ag2BiI5,none used 
+6000rpm 30s,25,25,Ag3BiI6,none used 
+"1000rpm 2s, 6000rpm 30s",110,110,AgBiI4,Toluene
+"1000rpm 2s, 6000rpm 30s",110,110,AgBiI4,isopropanol
+"1000rpm 2s, 6000rpm 30s",110,110,AgBiI4,chlorobenzene
