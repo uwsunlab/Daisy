@@ -41,6 +41,7 @@ This repository contains all the code developed for the Daisy project. It includ
  ┣ 📂 src                   # Source code for various models and analysis
  ┃ ┣ 📜 DAISY_BAYESIAN_OPTIMIZATION.ipynb
  ┃ ┣ 📜 DAISY_PCA.ipynb
+ ┃ ┣ 📜 DAISY_RF.ipynb
  ┃ ┣ 📜 DAISY_Pre-Process.ipynb
  ┃ ┣ 📜 DAISY_RL.ipynb
  ┃ ┣ 📜 DAISY_SINGLE_IMAGE_SEGMENT_AND_DATA_EXTRACTION.ipynb
