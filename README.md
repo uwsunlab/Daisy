@@ -8,7 +8,7 @@ Vision intelligence assists microstructural optimization of lead-free perovskite
 This repository contains all the code developed for the Daisy project. It includes image classification, segmentation models, clustering models, and optimization algorithms, along with support, visualization, and pre-processing code. The goal is to provide structured and reusable code for research and development.
 
 ## 🚀 Features
-
+"" Arrange according to paper, Image Interpreter, synthesis planner, PCA , additional info"
 - **Segmentation**
 - **Clustering**
 - **Grain Size and Defect Percentage Extraction**
@@ -24,7 +24,7 @@ This repository contains all the code developed for the Daisy project. It includ
 1. Clone this repository:
    ```sh
    git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   cd Daisy
    ```
 2. Install dependencies:
    ```sh
