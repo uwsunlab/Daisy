@@ -39,7 +39,7 @@ This repository contains all the code developed for the Daisy project. It includ
  ┃ ┣ 📜 Synthesis_parameters.csv
  ┃ ┣ 📜 Unique_synthesis_parameters.csv
  ┣ 📂 src                   # Source code for various models and analysis
- ┃ ┣ 📜 DAISY_OPTIMIZATION.ipynb
+ ┃ ┣ 📜 DAISY_BAYESIAN_OPTIMIZATION.ipynb
  ┃ ┣ 📜 DAISY_PCA.ipynb
  ┃ ┣ 📜 DAISY_Pre-Process.ipynb
  ┃ ┣ 📜 DAISY_RL.ipynb
