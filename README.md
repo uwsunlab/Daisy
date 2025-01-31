@@ -32,7 +32,7 @@ This repository contains all the code developed for the Daisy project. It includ
    ```
 
 ## 📂 Repository Structure
-
+""create new folder structure according to the paper""
 ```plaintext
 📦 your-repo-name
  ┣ 📂 Image_support_data     # Data files related to image processing
@@ -55,7 +55,7 @@ This repository contains all the code developed for the Daisy project. It includ
 ```
 
 ## 📖 Usage
-
+"" Combine into same section with features and add the BO, RF code to additional infor folder, create new folder structure according to the paper""
 All the code provided was run on Google Colab.
 
 - **Grain Size and Defect Percentage Extraction using Segmentation & Clustering:** `DAISY_SINGLE_IMAGE_SEGMENT_AND_DATA_EXTRACTION.ipynb` performs single-image segmentation and clustering while extracting defect and grain size information. 
