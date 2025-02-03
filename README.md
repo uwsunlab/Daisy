@@ -47,7 +47,7 @@ All the code provided was run on Google Colab.
   - 
 ### 📂 Additional Modules
 
-- **Bayesian Optimization for Process Optimization** (`DAISY_OPTIMIZATION.ipynb`)
+- **Bayesian Optimization for Process Optimization** (`DAISY_BAYESIAN_OPTIMIZATION.ipynb`)
   - Tests Bayesian optimization models to identify optimal parameter combinations.
 - **Alternative Model Architectures for Image Classification** (`Daisy_Mobile.ipynb`, `Daisy_ResNet50.ipynb`)
   - Provides alternative deep learning models for classification.
@@ -78,7 +78,7 @@ All the code provided was run on Google Colab.
  ┃ ┃ ┣ 📂 Reinforcement_Learning
  ┃ ┃ ┃ ┣ 📜 DAISY_RL.ipynb
  ┃ ┣ 📂 additional
- ┃ ┃ ┣ 📜 DAISY_OPTIMIZATION.ipynb
+ ┃ ┃ ┣ 📜 DAISY_BAYESIAN_OPTIMIZATION.ipynb
  ┃ ┃ ┣ 📜 Daisy_Mobile.ipynb
  ┃ ┃ ┣ 📜 Daisy_ResNet50.ipynb
  ┃ ┃ ┣ 📜 Daisy_RF.ipynb
