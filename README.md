@@ -21,39 +21,39 @@ This repository contains all the code developed for the Daisy project. It includ
 ## 🚀 Features & Usage
 
 All the code provided was run on Google Colab.
+### 📂 Data Preprocessing
 
+- **Preprocessing & Patch-Based Processing for Classification** (`DAISY_Pre-Process.ipynb`, `Daisy_Patch_creator.ipynb`)
+  - Prepares images for analysis and breaks SEM images into smaller patches to aid classification models.
+  
 ### 📂 Image Interpreter
+#### Classification
+- **Image Classification & Feature Extraction** (`Daisy_VGG16.ipynb`)
+  - Uses VGG16 architecture to classify and extract features from SEM images.
 
 #### Image Segment & Clustering
 - **Segmentation & Clustering** (`DAISY_SINGLE_IMAGE_SEGMENT_AND_DATA_EXTRACTION.ipynb`)
   - Performs segmentation and clustering while extracting defect and grain size information.
 
-#### Classification
-- **Image Classification & Feature Extraction** (`Daisy_VGG16.ipynb`)
-  - Uses VGG16 architecture to classify and extract features from SEM images.
 
 ### 📂 Synthesis Planner
-
-#### PCA Data Space
-- **Principal Component Analysis (PCA) for Data Visualization** (`DAISY_PCA.ipynb`)
-  - Applies PCA for parameter space visualization and dimensionality reduction.
 
 #### Reinforcement Learning
 - **Reinforcement Learning for Parameter Optimization** (`DAISY_RL.ipynb`)
   - Implements reinforcement learning to optimize experimental parameters.
-
+#### PCA Data Space
+- **Principal Component Analysis (PCA) for Data Visualization** (`DAISY_PCA.ipynb`)
+  - Applies PCA for parameter space visualization and dimensionality reduction.
+  - 
 ### 📂 Additional Modules
 
 - **Bayesian Optimization for Process Optimization** (`DAISY_OPTIMIZATION.ipynb`)
-  - Tests Bayesian optimization models for optimal parameter combinations.
+  - Tests Bayesian optimization models to identify optimal parameter combinations.
 - **Alternative Model Architectures for Image Classification** (`Daisy_Mobile.ipynb`, `Daisy_ResNet50.ipynb`)
   - Provides alternative deep learning models for classification.
-
-### 📂 Data Preprocessing
-
-- **Preprocessing & Patch-Based Processing for Classification** (`DAISY_Pre-Process.ipynb`, `Daisy_Patch_creator.ipynb`)
-  - Prepares images for analysis and breaks SEM images into smaller patches to aid classification models.
-
+- **Eandom forest Regression for Process Optimization** (`DAISY_OPTIMIZATION.ipynb`)
+  - Tests Random Forest Regression model and extracts feature importnaces to identify optimal parameter combinations.
+  
 ### 📂 Image Support Data
 
 - **Data Files for Processing and Analysis** (`Image_support_data` folder)
@@ -81,6 +81,7 @@ All the code provided was run on Google Colab.
  ┃ ┃ ┣ 📜 DAISY_OPTIMIZATION.ipynb
  ┃ ┃ ┣ 📜 Daisy_Mobile.ipynb
  ┃ ┃ ┣ 📜 Daisy_ResNet50.ipynb
+ ┃ ┃ ┣ 📜 Daisy_RF.ipynb
  ┃ ┣ 📂 data_Preprocessing
  ┃ ┃ ┣ 📜 DAISY_Pre-Process.ipynb
  ┃ ┃ ┣ 📜 Daisy_Patch_creator.ipynb
