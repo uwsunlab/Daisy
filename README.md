@@ -1,38 +1,54 @@
 # 🔬🧪 DAISY
 
 Vision intelligence assists microstructural optimization of lead-free perovskite semiconductors.
-""Note - Add the paper link""
 
 ## 📌 Overview
 
 This repository contains all the code developed for the Daisy project. It includes image classification, segmentation models, clustering models, and optimization algorithms, along with support, visualization, and pre-processing code. The goal is to provide structured and reusable code for research and development.
 
-## 🚀 Features
-"" Arrange according to paper, Image Interpreter, synthesis planner, PCA , additional info"
-- **Segmentation**
-- **Clustering**
-- **Grain Size and Defect Percentage Extraction**
-- **Deep Learning Architectures:** Implementation of **ResNet50, VGG16, and MobileNet** for classification.
-- **Reinforcement Learning (RL):** Q-learning-based **parameter optimization** to optimize synthesis conditions.
-- **Principal Component Analysis (PCA):** Dimensionality reduction for parameter space visualization.
-- **Bayesian Optimization**
-- **Patch-Based Image Processing:** Patch creation for training classification.
-- **Data Visualization:** Custom visualizations using **Altair and Matplotlib** to analyze results effectively.
+## 🚀 Features & Usage
 
-## 🛠 Installation
+All the code provided was run on Google Colab.
 
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/your-username/your-repo-name.git
-   cd Daisy
-   ```
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
+### 📂 Image Interpreter
+
+#### Image Segment & Clustering
+- **Segmentation & Clustering** (`DAISY_SINGLE_IMAGE_SEGMENT_AND_DATA_EXTRACTION.ipynb`)
+  - Performs segmentation and clustering while extracting defect and grain size information.
+
+#### Classification
+- **Image Classification & Feature Extraction** (`Daisy_VGG16.ipynb`)
+  - Uses VGG16 architecture to classify and extract features from SEM images.
+
+### 📂 Synthesis Planner
+
+#### PCA Data Space
+- **Principal Component Analysis (PCA) for Data Visualization** (`DAISY_PCA.ipynb`)
+  - Applies PCA for parameter space visualization and dimensionality reduction.
+
+#### Reinforcement Learning
+- **Reinforcement Learning for Parameter Optimization** (`DAISY_RL.ipynb`)
+  - Implements reinforcement learning to optimize experimental parameters.
+
+### 📂 Additional Modules
+
+- **Bayesian Optimization for Process Optimization** (`DAISY_OPTIMIZATION.ipynb`)
+  - Tests Bayesian optimization models for optimal parameter combinations.
+- **Alternative Model Architectures for Image Classification** (`Daisy_Mobile.ipynb`, `Daisy_ResNet50.ipynb`)
+  - Provides alternative deep learning models for classification.
+
+### 📂 Data Preprocessing
+
+- **Preprocessing & Patch-Based Processing for Classification** (`DAISY_Pre-Process.ipynb`, `Daisy_Patch_creator.ipynb`)
+  - Prepares images for analysis and breaks SEM images into smaller patches to aid classification models.
+
+### 📂 Image Support Data
+
+- **Data Files for Processing and Analysis** (`Image_support_data` folder)
+  - Contains essential CSV files (`Pixel_to_um_scale.csv`, `Synthesis_parameters.csv`, `Unique_synthesis_parameters.csv`) for data processing.
 
 ## 📂 Repository Structure
-""create new folder structure according to the paper""
+
 ```plaintext
 📦 your-repo-name
  ┣ 📂 Image_support_data     # Data files related to image processing
@@ -40,30 +56,26 @@ This repository contains all the code developed for the Daisy project. It includ
  ┃ ┣ 📜 Synthesis_parameters.csv
  ┃ ┣ 📜 Unique_synthesis_parameters.csv
  ┣ 📂 src                   # Source code for various models and analysis
- ┃ ┣ 📜 DAISY_BAYESIAN_OPTIMIZATION.ipynb
- ┃ ┣ 📜 DAISY_PCA.ipynb
- ┃ ┣ 📜 DAISY_RF.ipynb
- ┃ ┣ 📜 DAISY_Pre-Process.ipynb
- ┃ ┣ 📜 DAISY_RL.ipynb
- ┃ ┣ 📜 DAISY_SINGLE_IMAGE_SEGMENT_AND_DATA_EXTRACTION.ipynb
- ┃ ┣ 📜 Daisy_Mobile.ipynb
- ┃ ┣ 📜 Daisy_Patch_creator.ipynb
- ┃ ┣ 📜 Daisy_ResNet50.ipynb
- ┃ ┣ 📜 Daisy_VGG16.ipynb
+ ┃ ┣ 📂 Image Interpreter
+ ┃ ┃ ┣ 📂 Image_segment_cluster
+ ┃ ┃ ┃ ┣ 📜 DAISY_SINGLE_IMAGE_SEGMENT_AND_DATA_EXTRACTION.ipynb
+ ┃ ┃ ┣ 📂 classification
+ ┃ ┃ ┃ ┣ 📜 Daisy_VGG16.ipynb
+ ┃ ┣ 📂 Synthesis Planner
+ ┃ ┃ ┣ 📂 PCA_data_space
+ ┃ ┃ ┃ ┣ 📜 DAISY_PCA.ipynb
+ ┃ ┃ ┣ 📂 Reinforcement_Learning
+ ┃ ┃ ┃ ┣ 📜 DAISY_RL.ipynb
+ ┃ ┣ 📂 additional
+ ┃ ┃ ┣ 📜 DAISY_OPTIMIZATION.ipynb
+ ┃ ┃ ┣ 📜 Daisy_Mobile.ipynb
+ ┃ ┃ ┣ 📜 Daisy_ResNet50.ipynb
+ ┃ ┣ 📂 data_Preprocessing
+ ┃ ┃ ┣ 📜 DAISY_Pre-Process.ipynb
+ ┃ ┃ ┣ 📜 Daisy_Patch_creator.ipynb
  ┣ 📜 README.md              # This README file
  ┣ 📜 requirements.txt
-```
 
-## 📖 Usage
-"" Combine into same section with features and add the BO, RF code to additional infor folder, create new folder structure according to the paper""
-All the code provided was run on Google Colab.
-
-- **Grain Size and Defect Percentage Extraction using Segmentation & Clustering:** `DAISY_SINGLE_IMAGE_SEGMENT_AND_DATA_EXTRACTION.ipynb` performs single-image segmentation and clustering while extracting defect and grain size information. 
-- **Image Classification & Feature Extraction:** Use `Daisy_VGG16.ipynb`, `Daisy_ResNet50.ipynb`, and `Daisy_Mobile.ipynb` to classify and extract features from SEM images.
-- **Reinforcement Learning for Parameter Optimization:** `DAISY_RL.ipynb` implements reinforcement learning to optimize experimental parameters.
-- **Bayesian Optimization:** `DAISY_OPTIMIZATION.ipynb` tests a Bayesian optimization model for optimal parameter combinations.
-- **Patch-Based Processing for Classification:** `Daisy_Patch_creator.ipynb` breaks SEM images into smaller patches to aid classification models.
-- **Data Processing & Visualization:** The `Image_support_data` folder contains essential CSV files for data processing, assisting in running the other codes. `DAISY_PCA.ipynb` applies PCA for parameter space visualization.
 
 ## 🏗 Contributing
 
