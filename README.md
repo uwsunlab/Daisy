@@ -6,6 +6,18 @@ Vision intelligence assists microstructural optimization of lead-free perovskite
 
 This repository contains all the code developed for the Daisy project. It includes image classification, segmentation models, clustering models, and optimization algorithms, along with support, visualization, and pre-processing code. The goal is to provide structured and reusable code for research and development.
 
+## 🛠 Installation
+
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+
 ## 🚀 Features & Usage
 
 All the code provided was run on Google Colab.
@@ -48,8 +60,7 @@ All the code provided was run on Google Colab.
   - Contains essential CSV files (`Pixel_to_um_scale.csv`, `Synthesis_parameters.csv`, `Unique_synthesis_parameters.csv`) for data processing.
 
 ## 📂 Repository Structure
-
-
+```plaintext
 📦 your-repo-name
  ┣ 📂 Image_support_data     # Data files related to image processing
  ┃ ┣ 📜 Pixel_to_um_scale.csv
@@ -75,7 +86,7 @@ All the code provided was run on Google Colab.
  ┃ ┃ ┣ 📜 Daisy_Patch_creator.ipynb
  ┣ 📜 README.md              # This README file
  ┣ 📜 requirements.txt
-
+```
 
 ## 🏗 Contributing
 
@@ -97,4 +108,5 @@ For questions, discussions, or collaborations, feel free to reach out:
 ---
 
 🚀 **Happy Coding!** 🎯
+
 
