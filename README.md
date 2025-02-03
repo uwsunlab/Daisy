@@ -49,7 +49,7 @@ All the code provided was run on Google Colab.
 
 ## 📂 Repository Structure
 
-```plaintext
+
 📦 your-repo-name
  ┣ 📂 Image_support_data     # Data files related to image processing
  ┃ ┣ 📜 Pixel_to_um_scale.csv
